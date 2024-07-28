@@ -44,7 +44,7 @@ class SuccessfullScreen extends StatelessWidget {
                       context,
                       MaterialPageRoute<void>(
                         builder: (BuildContext context) =>
-                            const CategoriesScreen(),
+                             CategoriesScreen(),
                       ),
                     );
                   },

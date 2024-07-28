@@ -91,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                               context,
                               MaterialPageRoute<void>(
                                 builder: (BuildContext context) =>
-                                    const CategoriesScreen(),
+                                     CategoriesScreen(),
                               ),
                             );
                           },

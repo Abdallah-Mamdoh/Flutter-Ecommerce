@@ -37,8 +37,8 @@ class _ApiDataState extends State<ApiData> {
             children: [
               ElevatedButton(
                   onPressed: () async {
-                    viewData = await dataList().getData();
-                    print("hello");
+                   viewData = await dataList().getData();
+                    print(viewData);
                     // setState(() {});
                   },
                   child: Padding(
@@ -48,7 +48,7 @@ class _ApiDataState extends State<ApiData> {
                       style: TextStyle(fontSize: 20, color: Colors.green),
                     ),
                   )),
-              for(int i=0;i<100 ;i++)
+              // for(int i=0;i<viewData.length ;i++)
               Container(
                 margin: EdgeInsets.only(top: 15),
                 width: MediaQuery.of(context).size.width * 0.7,

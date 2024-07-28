@@ -33,7 +33,7 @@ class _SecondCategoriesScreenState extends State<SecondCategoriesScreen> {
                       context,
                       MaterialPageRoute<void>(
                         builder: (BuildContext context) =>
-                            const CategoriesScreen(),
+                             CategoriesScreen(),
                       ));
                 },
                 child: Icon(
